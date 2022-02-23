@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author morjo
  */
-public class Bai1 {
+public class bai1 {
 
     public static void main(String[] args) {
         Validate vali = new Validate();
