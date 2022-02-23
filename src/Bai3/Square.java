@@ -23,27 +23,27 @@ public class Square {
         this.edge = edge;
     }
 
-    public static void Edge(float edge) {
+    public static void edge(float edge) {
         System.out.println("Size of square: " + edge);
     }
 
-    public static void Perimeter(float edge) {
+    public static void perimeter(float edge) {
         float perimeter = edge * 4;
         System.out.println("Perimeter of the square: " + perimeter);
     }
 
-    public static void Area(float edge) {
+    public static void area(float edge) {
         float area = edge * edge;
         System.out.println("Area of the square: " + area);
     }
     
-    public static void SquareInfor(float edge){
+    public static void squareInfor(float edge){
         System.out.println("\n*Square infomation: ");
         System.out.print(" + ");
-        Edge(edge);
+        edge(edge);
         System.out.print(" + ");
         Perimeter(edge);
         System.out.print(" + ");
-        Area(edge);
+        area(edge);
     }
 }
